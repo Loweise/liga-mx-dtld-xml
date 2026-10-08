@@ -42,3 +42,18 @@ Un partido tiene exactamente un local		"
 Un partido tiene exactamente un visitante	"
 Una estadística opcional			*
 Puede haber cero o más tarjetas			*
+
+
+Pregunta: Si cada partido tiene un identificador P001, P002, etc., ¿qué ventaja tendría declararlo como ID en lugar de CDATA? Que id esta preparado precisamente para recibir un dato asi, una letra seguida de un numero
+
+
+Prueba			¿Bien formado?	¿Válido?	Error detectado
+Falta visitante		NO		NO		
+Dos locales		SI		NO	
+Orden incorrecto	NO		SI		
+Falta atributo obligatorio	SI	NO			
+ID duplicado			SI	NO
+Elemento desconocido		SI	NO		
+
+
+
