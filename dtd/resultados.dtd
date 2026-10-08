@@ -4,4 +4,6 @@
 <!ELEMENT posesion (#PCDATA)>
 <!ELEMENT tarjetas (#PCDATA)>
 <!ATTLIST partido id ID #REQUIRED>
-<!ATTLIST equipo nombre CDATA #REQUIRED>
+<!ATTLIST equipo 
+    estadia (local|visitante) #IMPLIED
+    nombre CDATA #REQUIRED>

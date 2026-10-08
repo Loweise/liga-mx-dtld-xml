@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<partido id="1"> 
+<!DOCTYPE partido SYSTEM "../dtd/resultados.dtd">
+<partido id="p1"> 
 
     <equipo estadia="local" nombre="Monterrey">
         <goles>1</goles>
