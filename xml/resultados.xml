@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<partido id="1"> 
+
+    <equipo estadia="local" nombre="Monterrey">
+        <goles>1</goles>
+        <posesion>50</posesion>
+        <tarjetas>0</tarjetas>
+    </equipo>
+
+    <equipo estadia="visitante" nombre="Cruz Azul">
+        <goles>0</goles>
+        <posesion>50</posesion>
+        <tarjetas>1</tarjetas> 
+    </equipo>
+
+</partido>
