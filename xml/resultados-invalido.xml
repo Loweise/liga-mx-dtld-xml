@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE partido SYSTEM "../dtd/resultados.dtd">
+<partido id="p12"> 
+
+    <equipo estadia="local" nombre="Monterrey">
+        <goles>1</goles>
+        <posesion>50</posesion>
+        <tarjetas>0</tarjetas>
+    </equipo>
+
+    <equipo estadia="local" >
+        <posesion>50</posesion>
+        <goles>0</goles>
+        <tarjetas>1</tarjetas> 
+        <indicepapeo> </indicepapeo>
+    </equipo>
+
+</partido>
+<partido id="p12"></partido>
