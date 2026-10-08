@@ -1,0 +1,7 @@
+<!ELEMENT partido (equipo+)>
+<!ELEMENT equipo (goles, posesion, tarjetas)>
+<!ELEMENT goles (#PCDATA)>
+<!ELEMENT posesion (#PCDATA)>
+<!ELEMENT tarjetas (#PCDATA)>
+<!ATTLIST partido id ID #REQUIRED>
+<!ATTLIST equipo nombre CDATA #REQUIRED>
