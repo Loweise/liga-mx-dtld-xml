@@ -22,9 +22,23 @@ Goles		Elemento		Porque es un elemento que se usa en multiples 					lugares
 
 Estadio		Elemento		Porque es de los primeros datos que aparecen 					por ej cuando se fijan en las tablas de un 					equipo
  
-Estado del partido	Atributo	Porque puede ir vinculado al estadio ya que 					son dependientes uno del otro
+Estado del partido	Atributo	Porque puede ir vinculado al estadio ya que 
+son dependientes uno del otro
 	
 Posesión	Elemento		Porque es dependiente de cada equipo pero son 					datos que al final se pueden usar para 
 					promedios
 
 Tarjetas	Elemento		Porque van vinculadas a varias cosas como 					equipos y jugadores
+
+
+
+
+
+
+Regla						Expresión DTD
+Una liga contiene una o más jornadas		+
+Una jornada contiene uno o más partidos		+
+Un partido tiene exactamente un local		"
+Un partido tiene exactamente un visitante	"
+Una estadística opcional			*
+Puede haber cero o más tarjetas			*
